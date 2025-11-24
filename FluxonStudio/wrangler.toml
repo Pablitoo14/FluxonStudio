@@ -1,0 +1,6 @@
+name = "FluxonStudio"
+main = "FluxonStudio"
+type = "assets"
+account_id = "c6ae2f8f9a5f29d5e909f6a82ac13e16"
+workers_dev = true
+compability_date = "2025-11-24"
