@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Formulario de Proyecto - Fluxon Studio</title>
+<style>
+body {
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0f0f10;
+color: white;
+padding: 40px;
+}
+h1 {
+font-size: 2.5rem;
+}
+form {
+margin-top: 30px;
+max-width: 600px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+input, textarea {
+padding: 12px;
+border-radius: 8px;
+border: none;
+background: #1a1a1a;
+color: white;
+font-size: 1rem;
+}
+button {
+padding: 12px 20px;
+background: white;
+color: black;
+font-weight: 600;
+border-radius: 8px;
+cursor: pointer;
+border: none;
+}
+</style>
+</head>
+<body>
+<h1>Cuéntanos tu proyecto</h1>
+<p>Completa este formulario y nos pondremos en contacto contigo para empezar a construir tu idea.</p>
+
+
+<form action="gracias.html" method="get">
+<input type="text" placeholder="Tu nombre" required />
+<input type="email" placeholder="Tu email" required />
+<textarea rows="6" placeholder="Describe lo que necesitas" required></textarea>
+<button type="submit">Enviar</button>
+</form>
+</body>
+</html>
