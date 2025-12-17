@@ -44,13 +44,22 @@ border: none;
 <body>
 <h1>Cuéntanos tu proyecto</h1>
 <p>Completa este formulario y nos pondremos en contacto contigo para empezar a construir tu idea.</p>
-
-
 <form action="gracias.html" method="get">
-<input type="text" placeholder="Tu nombre" required />
-<input type="email" placeholder="Tu email" required />
-<textarea rows="6" placeholder="Describe lo que necesitas" required></textarea>
-<button type="submit">Enviar</button>
+<form
+  action="https://formspree.io/f/mpwvvenl"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 </form>
 </body>
 </html>
